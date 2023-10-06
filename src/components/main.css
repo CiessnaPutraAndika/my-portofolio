@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(251, 255, 199);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.containerMain{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    /* background-image: url(../p.png); */
+    margin-top: 5px;
+    /* background-repeat: no-repeat; */
+    height: 500px;
+    justify-content: center;
+}
+
+.containerMain .main{
+    height: 100%;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.wraper{
+    /* background-color: red; */
+    width: 1200px;
+    height: 400px;
+}
+
+.name {
+    color: white;
+    font-size: 50px;
+}
+
+.name span{
+    font-weight: bold;
+    color: rgb(255, 174, 0);
+}
+
+.wraper .hi{
+    position: relative;
+    top: 50px;
+    margin: 50px;
+}
+.wraper .name{
+    margin: 50px;
+}
+
+.hr{
+    width: 50%;
+    height: 2px;
+    position: relative;
+    margin: 50px;
+    bottom: 30px;
+    background-color: white;
+}
+
+.foto{
+    width: 225px;
+    height: 220px;
+    position: relative;
+    bottom: 440px;
+    left: 400px;
+    background-color: white;
+    border: 8px solid rgb(255, 174, 0);
+    transform: rotate(45deg);
+    border-radius: 10px;
+}
+
+.dm img{
+    width: 450px;
+    position: relative;
+    left: 55px;
+    bottom: 550px;
+    cursor: pointer;
+    /* transform: rotate(-45deg); */
+    /* background-color: aqua; */
+}
+
+.txt{
+    margin: 50px;
+    position: relative;
+    bottom: 55px;
+    color: white;
+}
+
+.button button{
+    border-radius: 13px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px solid rgb(255, 174, 0);
+    background-color: #333;
+    /* background-image: linear-gradient(to right,  rgb(255, 174, 0), rgb(238, 235, 78)); */
+    color: white;
+    font: bold;
+    position: relative;
+    left: 50px;
+    bottom: 80px;
+}
+
+.button button:hover{
+    transform: scale(1.099);
+    transition: ease-in-out 0.3s;
+    background-color: rgb(36, 36, 36);
+    /* background-image: linear-gradient( rgb(163, 5, 163), rgb(81, 0, 128)); */
+    cursor: pointer;
+}
+
+.hua{
+    position: relative;
+    bottom: 10px;
+}
+
+.cont-about{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.wrapp{
+    /* background-color: red; */
+    width: 1200px;
+    height: 350px;
+}
+
+.garis{
+    position: relative;
+    left: 521px;
+    bottom: 20px;
+    width: 13%;
+    height: 3px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.about .tentang{
+    margin: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+    position: relative;
+    bottom: 70px;
+    font-size: 18px;
+}
+
+.about .sub-judul{
+    /* font-size: 30px; */
+    margin: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+    position: relative;
+    bottom: 35px;
+}
+
+.cont-about .pp{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 440px;
+}
+
+.pp img{
+    width: 300px;
+    margin: 100px;
+}
+
+.cont-skill{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.wrapper{
+    background-color: #333;
+    position: relative;
+    width: 1100px;
+    height: 450px;
+    border-radius: 15px;
+    position: relative;
+    border: 5px solid rgb(255, 174, 0);
+}
+
+.box{
+    margin: 50px;
+    color: white;
+}
+
+.liat{
+    left: 850px;
+    position: relative;
+    bottom: 225px;
+    color: white;
+    border: none;
+    background-color: rgb(255, 174, 0);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.box .skill{
+    position: relative;
+    padding: 30px;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+    right: 50px;
+}
+
+.cont-blog{
+    display: flex;
+    justify-content: center;
+}
+
+.containerBlog{
+    display: flex;
+    justify-content: center;
+    /* background-color: #333; */
+    height: 450px;
+    width: 1200px;
+    position: relative;
+    margin-bottom: -200px;
+}
+
+.blog .banner img{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 330px;
+    height: 185px;
+    border-radius: 20px;
+    /* margin-top: 60px; */
+}
+
+.blog img{
+    padding: 10px;
+}
+
+.blog .banner{
+    position: relative;
+    top: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    background: white;
+    padding: 5px;
+    margin: 30px;
+    max-width: 350px;
+    max-height: 340px;
+    white-space: normal;
+    word-wrap: break-word;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.banner .tools h3 span{
+    font-size: 13px;
+    color: gray;
+    position: relative;
+    right: 50px;
+    bottom: 10px;
+}
+
+.banner .tools span b{
+    color: black;
+}
+
+.banner .judul{
+    font-size: 16px;
+    position: relative;
+    right: 30px;
+    bottom: 35px;
+}
+
+.banner button{
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: white;
+    color: gray;
+    width: 50px;
+    cursor: pointer;
+    position: relative;
+    right: 30px;
+    bottom: 40px;
+    width: 60px;
+    padding: 5px;
+}
+
+.tools h3{
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+}
+
+
+.hoh{
+    position: relative;
+    top: 20px;
+}
